@@ -16,9 +16,16 @@
         background-color: #fbb03c;
         background-image: none;
       }
-      @media screen
-      section {
-        background-image: url(http://digeratido.com/branding/bridge background.jpg) !important;
+      body.pages.home>main>section#test1.banner.burning_car:before {
+        background-image: url('http://digeratido.com/branding/bridge background.jpg');
+        background-position: -1844px;
+      }
+      body.pages.home>main>section#test1.banner.burning_car:after {
+        background-image: url('http://digeratido.com/branding/bridge background.jpg');
+        background-position: 1479px;
+      }
+      body.pages.home>main>section#test1.banner.burning_car {
+        background-image: url('http://digeratido.com/branding/bridge background.jpg');
       }
     </style>
   </head>
@@ -37,7 +44,7 @@
       </nav>
     </header>
     <main>
-      <section class="banner burning_car" >
+    <section class="banner burning_car" id="test1">
   <header>
     <h1>DigeratiDo powers lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
   </header>
